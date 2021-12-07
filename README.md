@@ -2,7 +2,7 @@
 
 [![Jump.js on NPM](https://img.shields.io/npm/v/jump.js.svg?style=flat-square)](https://www.npmjs.com/package/jump.js) [![Jump.js Downloads on NPM](https://img.shields.io/npm/dm/jump.js.svg?style=flat-square)](https://www.npmjs.com/package/jump.js) [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
-A modern smooth scrolling library.
+Fork for Jump.js: A modern smooth scrolling library. (with step option)
 
 * [Demo Page](http://callmecavs.github.io/jump.js/) (Click the arrows!)
 
@@ -22,7 +22,7 @@ Follow these steps to get started:
 Using NPM, install Jump, and save it to your `package.json` dependencies.
 
 ```bash
-$ npm install jump.js --save
+$ npm install @ramirezcgn/jump.js --save
 ```
 
 ### Import
@@ -32,7 +32,7 @@ Import Jump, naming it according to your preference.
 ```es6
 // import Jump
 
-import jump from 'jump.js'
+import jump from '@ramirezcgn/jump.js'
 ```
 
 ### Call
